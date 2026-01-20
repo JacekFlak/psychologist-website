@@ -118,7 +118,7 @@ contactForm.addEventListener('submit', (e) => {
     const formData = new FormData(contactForm);
     
     // Show success message (you can customize this)
-    alert('Dziękuję za wiadomość! Skontaktuję się z Tobą wkrótce.');
+    alert('Thank you for your message! I will contact you soon.');
     
     // Reset form
     contactForm.reset();
@@ -254,5 +254,5 @@ document.querySelectorAll('.amount').forEach(amount => {
 });
 
 // Console message
-console.log('%c🧠 Strona psychologa ', 'color: #4A90E2; font-size: 20px; font-weight: bold;');
-console.log('%cProfesjonalna pomoc psychologiczna w przyjaznej atmosferze', 'color: #6C757D; font-size: 14px;');
+console.log('%c🧠 Psychologist Website ', 'color: #4A90E2; font-size: 20px; font-weight: bold;');
+console.log('%cProfessional psychological help in a friendly atmosphere', 'color: #6C757D; font-size: 14px;');
