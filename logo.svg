@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Tło koła -->
+  <circle cx="100" cy="100" r="90" fill="#4A90E2" stroke="#357ABD" stroke-width="6"/>
+  
+  <!-- Symbol mózgu jako ścieżka -->
+  <g transform="translate(100, 75)" fill="#FFFFFF">
+    <path d="M-35,-25 C-35,-40 -20,-50 0,-50 C20,-50 35,-40 35,-25 C45,-20 50,-5 45,10 C50,25 40,40 25,45 C20,55 5,55 0,55 C-5,55 -20,55 -25,45 C-40,40 -50,25 -45,10 C-50,-5 -45,-20 -35,-25 Z" opacity="0.9"/>
+    <path d="M0,-45 L0,50" stroke="#4A90E2" stroke-width="3" fill="none"/>
+    <path d="M-30,-15 Q0,-5 30,-15" stroke="#4A90E2" stroke-width="2" fill="none"/>
+    <path d="M-25,15 Q0,25 25,15" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Inicjały MF -->
+  <text x="100" y="165" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="bold">MF</text>
+</svg>
